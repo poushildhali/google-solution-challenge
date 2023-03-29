@@ -1,0 +1,178 @@
+*{
+    transition:all 0.3s ease-in-out;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:rgba(71, 166, 255, 0.771);
+    background-size: cover;
+
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    max-height: 75px;
+    background-color: rgba(32, 143, 247, 0.771);
+}
+.logo{
+ size: 10%;
+
+}
+.list{
+    display: flex;
+    justify-content: center;
+   
+}
+.list li{
+   width: max-content;
+    list-style: none;
+    margin-top: 10px;
+    padding: 10px 30px;
+}
+.list li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+.list li a:hover{
+    color: rgb(255, 228, 189);
+    text-shadow: 2px 2px 5px rgb(255, 228, 189);
+}
+.right-nav{
+    margin: 20px 10px;
+    padding: auto;
+}
+.btn-sm{
+    margin: 10px 10px;
+}
+.btn-sm:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+
+}
+#search{
+    height: 30px;
+    /* width: 300px; */
+    border-radius: 5px;
+}
+#search:hover{
+    background-color: rgb(255, 255, 255);
+
+}
+.heading{
+    margin: 5%;
+    color: antiquewhite;
+}
+.container{
+    display: flex;
+    
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+
+
+
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers {
+  display: none;
+}
+
+/* forward & Back buttons */
+.Back, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover, .forward:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption Info */
+.Info {
+  color: #e3e3e3;
+  font-size: 16px;
+  padding: 10px 14px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Worknumbering (1/3 etc) */
+.MessageInfo {
+  color: #f2f2f3;
+  font-size: 14px;
+  padding: 10px 14px;
+  position: absolute;
+  top: 0;
+}
+
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable, .dots:hover {
+  background-color: #717161;
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
